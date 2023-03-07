@@ -9,3 +9,4 @@ count = 1
 for s in stories:
     print(count,s.find("div","release_movie_name").a.text.strip())
     count += 1
+    #..
